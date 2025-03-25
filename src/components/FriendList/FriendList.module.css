@@ -1,8 +1,12 @@
 .friendsList {
   list-style: none;
-  padding: 0;
+  padding-bottom: 40px;
   margin: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(80px, 1fr)
+  );
   flex-direction: column;
   gap: 10px;
 }

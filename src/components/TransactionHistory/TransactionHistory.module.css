@@ -1,28 +1,21 @@
-.transaction-history {
-  width: 100%;
+.transactionHistory {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 30px;
   border-collapse: collapse;
 }
-
-.transaction-history th,
-.transaction-history td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-.transaction-history th {
-  background-color: black;
+.transactionHeader {
+  background-color: rgb(53, 51, 51);
   color: white;
-  text-align: left;
+  width: calc(100% / 3);
+  padding: 10px;
+  border: 3px solid black;
 }
 
-.transaction-history tr:nth-child(even) {
-  background-color: #f9f9f9; /* світло-сірий */
+.transactionTr:nth-child(even) {
+  background-color: lightgrey;
 }
-
-.transaction-history tr:nth-child(odd) {
-  background-color: white; /* білий */
-}
-
-.transaction-history tr:hover {
-  background-color: #ddd; /* сірий при наведенні */
+.transactionInfo {
+  padding: 5px;
+  border: 3px solid black;
 }
