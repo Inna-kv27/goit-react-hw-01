@@ -7,7 +7,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
       <img
         src={avatar}
         alt={`${name}'s avatar`}
-        width="48"
+        width="68"
         className={css.avatar}
       />
       <p className={css.name}>{name}</p>
